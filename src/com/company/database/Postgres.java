@@ -12,7 +12,7 @@ public class Postgres implements IDB {
         String connectionURL = "jdbc:postgresql://localhost:5432/SchoolManagementSystem";
         try {
             Class.forName("org.postgresql.Driver");
-            return DriverManager.getConnection(connectionURL, "postgres", "1234");
+            return DriverManager.getConnection(connectionURL, "postgres", "1234567898");
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
             throw ex;
